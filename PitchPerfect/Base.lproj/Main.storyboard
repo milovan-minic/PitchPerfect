@@ -29,27 +29,29 @@
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y5u-Gj-ST1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="15M-DD-4a5">
-                                <rect key="frame" x="126" y="385" width="122" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to record" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="juh-ku-eeV">
+                                <rect key="frame" x="136.5" y="356" width="102.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="15M-DD-4a5">
+                                <rect key="frame" x="136" y="385" width="102" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Stop recording"/>
                                 <connections>
                                     <action selector="stopRecordingAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ITW-bs-oqX"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap to record" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="juh-ku-eeV">
-                                <rect key="frame" x="101" y="356" width="173" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="aIj-VB-eSC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GKO-HD-9jT"/>
                             <constraint firstItem="aIj-VB-eSC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MeT-ZR-G2K"/>
+                            <constraint firstItem="juh-ku-eeV" firstAttribute="centerX" secondItem="aIj-VB-eSC" secondAttribute="centerX" id="blk-gg-o4p"/>
+                            <constraint firstItem="15M-DD-4a5" firstAttribute="centerX" secondItem="juh-ku-eeV" secondAttribute="centerX" id="f8E-Ku-o7b"/>
+                            <constraint firstItem="15M-DD-4a5" firstAttribute="top" secondItem="juh-ku-eeV" secondAttribute="bottom" constant="8" id="h6u-bJ-tUY"/>
+                            <constraint firstItem="juh-ku-eeV" firstAttribute="top" secondItem="aIj-VB-eSC" secondAttribute="bottom" constant="8" id="u5f-dE-CzG"/>
                         </constraints>
                     </view>
                     <connections>
