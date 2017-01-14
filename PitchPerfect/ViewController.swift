@@ -34,11 +34,15 @@ class ViewController: UIViewController {
     @IBAction func recordAudio(_ sender: Any) {
         print("Record Button was pressed!")
         recordingLabel.text = "Recording in Progress"
+        recordButton.isEnabled = false
+        stopRecordingButton.isEnabled = true
     }
 
     @IBAction func stopRecordingAudio(_ sender: Any) {
         print("Stop recording button was pressed!")
         recordingLabel.text = "Tap to record"
+        recordButton.isEnabled = true
+        stopRecordingButton.isEnabled = false
     }
 }
 
