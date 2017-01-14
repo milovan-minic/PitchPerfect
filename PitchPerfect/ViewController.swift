@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         print("viewWillAppear is called")
+        stopRecordingButton.isEnabled = false
     }
 
     override func didReceiveMemoryWarning() {
