@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  PitchPerfect
 //
-//  Created by iosakademija on 1/13/17.
+//  Created by Milovan Minic on 1/13/17.
 //  Copyright © 2017 No Organization. All rights reserved.
 //
 

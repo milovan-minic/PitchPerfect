@@ -39,6 +39,7 @@
                                 <state key="normal" image="Stop"/>
                                 <connections>
                                     <action selector="stopRecordingAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ITW-bs-oqX"/>
+                                    <segue destination="CWg-Uv-0L0" kind="show" id="irm-mf-50H"/>
                                 </connections>
                             </button>
                         </subviews>
