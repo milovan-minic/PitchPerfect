@@ -40,6 +40,9 @@ class RecordSoundsViewController: UIViewController {
         let pathArray = [dirPath, recordingName]
         let filePath = URL(string: pathArray.joined(separator: "/"))
         
+//        test it the file is being created and if it is on correct location
+//        print(filePath)
+        
         let session = AVAudioSession.sharedInstance()
         try! session.setCategory(AVAudioSessionCategoryPlayAndRecord, with: .defaultToSpeaker)
         
