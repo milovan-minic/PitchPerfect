@@ -71,7 +71,10 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         } else {
             print("Recording was not successful")
         }
-        
+    }
+    
+    func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        <#code#>
     }
     
 }
