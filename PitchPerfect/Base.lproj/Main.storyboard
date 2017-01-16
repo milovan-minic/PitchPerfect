@@ -169,6 +169,15 @@
                             <constraint firstItem="jTZ-R9-kJV" firstAttribute="top" secondItem="dRv-dd-DM3" secondAttribute="bottom" id="rwz-uh-n2t"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="echoButton" destination="agp-hC-aLN" id="FRs-JH-iff"/>
+                        <outlet property="fastButton" destination="xzf-LQ-eYS" id="Lee-Zc-R48"/>
+                        <outlet property="highPitchButton" destination="FgJ-JI-wTs" id="dj6-QB-z1o"/>
+                        <outlet property="lowPitchButton" destination="KEX-f5-XsR" id="hqZ-Da-BMS"/>
+                        <outlet property="reverbButton" destination="xGI-Lf-Upg" id="G7i-TQ-zEa"/>
+                        <outlet property="slowButton" destination="6gb-KO-nUX" id="UGK-Ff-Exe"/>
+                        <outlet property="stopButton" destination="qbi-kD-CmI" id="9li-ew-OEf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="US2-Lr-mcs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
